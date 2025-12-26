@@ -5,7 +5,8 @@
   "author": "Soumyadeep",
   "license": "MIT",
   "scripts": {
-    "dev": "PORT=4030 nodemon app.js"
+    "dev": "PORT=4030 nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^2.2.1",
