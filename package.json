@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Soumyadeep",
+  "license": "MIT",
+  "scripts": {
+    "dev": "PORT=4030 nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "express-trimmer": "^0.0.3",
+    "google-auth-library": "^10.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.2",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.3"
+  }
+}
